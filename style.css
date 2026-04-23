@@ -1,9 +1,10 @@
 body {
-    font-family: "Verdana", sans-serif;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
     margin: 0;
     padding: 1.5rem;
     line-height: 1.6;
-    background-color: #228B22;
+    background-color: #0FF5C1;
     color: #222;
 }
 h1 {
@@ -16,10 +17,9 @@ h1 {
     color: black;
     margin: auto;
     padding: 1rem;
-    background: #D97314;
+    background: #CFF50B;
     text-align: center;
     transition: transform 0.8s ease, background-color 0.4s ease;
-    animation: bounce 1s ease-in-out infinite;
 }
 .myart {
     display: flex;
@@ -31,6 +31,9 @@ img {
     width: 75%;
     height: 75%;
 }
+h2 {
+  color: #C9A100;
+}
 user agent stylesheet
 body {
     display: block;
@@ -39,7 +42,7 @@ body {
 .subtitle {
     text-align: center;
     font-size: 1rem;
-    color: #FFD700;
+    color: #C9A100;
     margin-bottom: 2rem;
 }
 .style {
