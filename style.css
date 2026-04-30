@@ -3,7 +3,7 @@ body {
     font-weight: 700;
     margin: 0;
     line-height: 1.6;
-    background-color: #0FF5C1;
+    background: linear-gradient(to bottom, #099473, #08cfa0, #0FF5C1, #08cfa0, #099473);
     color: #222;
 }
 
@@ -56,7 +56,8 @@ img {
 
 h2 {
   padding: 0rem 1.5rem;
-  color: #C9A100;
+  color: #ffd119;
+  text-shadow: 0 0 10px black, 0 0 15px black;
   width: 100%;
   height: 50px;
 }
@@ -69,17 +70,14 @@ body {
 
 .subtitle {
     font-size: 1rem;
-    color: #C9A100;
+    color: #ffd119;
+    text-shadow: 0 0 10px white, 0 0 15px white;
     margin-bottom: 2rem;
 }
 
-.style {
-    font-family: 'Ariel';
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: 100%;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)
+.gradient-section {
+    color: white;
+    text-align: center;
 }
 
 @media (min-width: 700px) {
@@ -93,5 +91,5 @@ body {
         text-align: left;
     }
   footer {
-    padding: 1rem 1.5rem;
+    padding: .5rem 1rem;
   }
