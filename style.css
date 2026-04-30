@@ -2,23 +2,31 @@ body {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
     margin: 0;
-    padding: 1.5rem;
     line-height: 1.6;
     background-color: #0FF5C1;
     color: #222;
 }
+.forest {
+    height: 80vh;
+    background: url(https://images.pexels.com/photos/18455838/pexels-photo-18455838.jpeg?auto=format&fit=crop&w=1920&q=80) center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
 h1 {
     font-size: 3rem;
     text-align: center;
-  margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 .card {
     max-width: 300px;
     object-fit: contain;
     color: black;
     margin: auto;
-    width: 300px;
-    height: 100px;
+    width: 20rem;
+    height: 20rem;
     padding: 1rem;
     background: #CFF50B;
     text-align: center;
@@ -36,6 +44,7 @@ img {
     height: 75%;
 }
 h2 {
+  padding: 0rem 1.5rem;
   color: #C9A100;
   width: 100%;
   height: 50px;
@@ -61,6 +70,7 @@ body {
 }
 @media (min-width: 700px) {
     .myintro {
+        padding: 1.5rem;
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: center;
